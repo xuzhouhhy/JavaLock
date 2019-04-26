@@ -1,1 +1,1 @@
-include ':app', ':Synchronized', ':jvm'
+include ':app', ':Synchronized', ':jvm', ':classloader', ':reflect', ':kotlintest', ':lambda', ':stream'

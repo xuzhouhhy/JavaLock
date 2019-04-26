@@ -10,7 +10,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Synchronized" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/classloader" />
             <option value="$PROJECT_DIR$/jvm" />
+            <option value="$PROJECT_DIR$/kotlintest" />
+            <option value="$PROJECT_DIR$/lambda" />
+            <option value="$PROJECT_DIR$/reflect" />
+            <option value="$PROJECT_DIR$/stream" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

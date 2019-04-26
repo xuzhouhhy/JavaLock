@@ -61,4 +61,27 @@ jvm运行参数 java -verbose:gc -Xmn5M -Xms10M -Xmx10M -XX:MaxPermSize=1M -XX:+
  	at com.xuzhouhhy.jvm.exceptiontest.OOMPermGenSpace.main(OOMPermGenSpace.java:16)
   7067K->476K(8704K), 0.0103682 secs]
   
+  ## ClassLoader
   
+  module:classloader
+  
+  参考资料
+  * [深入探讨 Java 类加载器](https://www.ibm.com/developerworks/cn/java/j-lo-classloader/#fig1)
+  * [Android插件化原理解析——Hook机制之动态代理](http://weishu.me/2016/01/28/understand-plugin-framework-proxy-hook/)
+  * [Android虚拟机框架：类加载机制](https://juejin.im/post/5a686596f265da3e2d339bb4#comment)
+  
+  思考题
+  * 为什么用双亲委托模型、代理模式？
+  * 为什么要自己写类加载器？
+  * 一个java文件可以由多个class么？除了内部类呢？
+  
+  ## 反射
+  
+  参考资料 [Java 反射由浅入深 | 进阶必备](https://juejin.im/post/598ea9116fb9a03c335a99a4)
+  
+  ## ThreadLocal
+  
+  * 每个县城的副本保存在哪里？
+  * 如何找到ThreadLocal对应的value？
+  * ThreadLocalMap的作用？
+  * ThreadLocal.withInitial()的作用？
